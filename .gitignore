@@ -1,0 +1,39 @@
+# Large spatial data (>50MB, use external download or Git LFS)
+*.tif
+*.tiff
+
+# Backup / duplicate files
+*_BACKUP.*
+*_TEMP.*
+backup/
+
+# Generated output figures
+*.pdf
+*.png
+*.jpg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optional: uncomment if CSV files are too large for GitHub
+# *.csv
